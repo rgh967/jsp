@@ -1,0 +1,31 @@
+마이바티스 API : http://www.mybatis.org/mybatis-3/ko/index.html
+1.마이바티스(Mybatis) 라이브러리 다운 받기
+  -> https://mvnrepository.com/ 접속
+  -> 키워드 'mybatis' 로 검색합니다.
+  -> 1. MyBatis 선택
+  -> 3.4.6 선택
+  -> Files에서 jar 파일 선택 후 팝업 메뉴에서 '다른 이름으로 링크 저장' 선택합니다.
+  -> mybatis-3.4.6.jar를  
+     MyBatis1\WebContent\WEB-INF\lib 에 붙여넣기 합니다.
+     
+2. 마이바티스 설정 파일인 sqlMapConfig.xml 작성하기(src에서 작성하기)
+   <?xml version="1.0" encoding="UTF-8" ?>
+   <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"  
+   "http://mybatis.org/dtd/mybatis-3-config.dtd">
+   <configuration>  
+   
+   </configuration> 
+
+3. SQL 맵퍼 파일 작성하기 - (src에서 Member.xml 만들기)
+      마이바티스의 가장 중요한 목적 중 하나가 DAO로부터 SQL문을 분리하는 것입니다.
+      분리된 SQL문은 SqlSession에서 사용합니다.
+      
+   <?xml version="1.0" encoding="UTF-8" ?>
+   <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+   <mapper namespace="Member1">
+   
+   </mapper>
+   
+   
