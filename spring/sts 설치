@@ -31,7 +31,7 @@
    
 
 5.  *****  제대로 설치 되었는지 test 해보기 *****
-   Window - Perspective - Other - JavaEE 선택
+   Window - Perspective - Open Perspective - Other - JavaEE 선택
    
     File - New- Dynamic Web Project 만들어서 test 해보세요
 
@@ -57,7 +57,7 @@
 
     (2) Project Explorer 뷰에서 springTest 프로젝트를 선택한 상태에서 마우스 오른쪽 버튼을 클릭하여 맨 아래의 "Properties"를  선택합니다.
      왼쪽에서 [Project Facets]를 선택하고 Java 버전을 1.8로 수정합니다.
-     오른쪽에 [Runtimes]탭에서 Apache Tomcat v8.0을 <Apply>버튼을 클릭합니다.
+     오른쪽에 [Runtimes]탭에서 Apache Tomcat v8.5을 <Apply>버튼을 클릭합니다.
 
     (3) pom.xml파일을 선택해서 
       <org.springframework-version>5.1.3.RELEASE</org.springframework-version>로 변경합니다.
