@@ -2,7 +2,7 @@
    spring-tool-suite-3.9.8.RELEASE-e4.11.0-win32-x86_64.zip 다운로드 합니다.
 
 2. 압축 해제시 생성할 폴더 이름이 길면 에러 발생하므로 짦게 만드세요(예)sts)
-   c:\sts\sts-bundle\sts-3.9.4.RELEASE\sts.exe 실행
+   c:\sts\sts-bundle\sts-3.9.8.RELEASE\sts.exe 실행
    - 이클립스와 비슷한데  다른점은 Spring 프로젝트가 따로 만들어 있습니다.
 
 3. ***** 디폴트 서버 삭제  *****
